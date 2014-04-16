@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "RPG Codex Fate Unlocker",
+    "description": "RPG Codex Fate Unlocker",
+    "version": "0.1",
+
+    "content_scripts": [
+        {
+            "matches": ["http://www.rpgcodex.net/"],
+            "js": ["lib/jquery-2.1.0.min.js", "lib/jquery-cookie.js", "js/tab-saver.js"]
+        },
+        {
+            "matches": ["http://www.rpgcodex.net/forums/index.php?threads/*"],
+            "js": ["lib/jquery-2.1.0.min.js", "js/bottom-actions.js"]
+        }
+    ]
+}
