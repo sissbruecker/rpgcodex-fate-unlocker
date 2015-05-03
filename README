@@ -1,8 +1,9 @@
 Chrome extension for improving some UI stuff on www.rpgcodex.net.
 
 Features:
-- Public actions replicated at bottom of the post
+- Public actions replicated at bottom of the post (disabled for now as this has since been implemented on the Codex)
 - Store / Restore last open Hot Topics tab
+- Fix spoiler image sizes
 
 License:
 

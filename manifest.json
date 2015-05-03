@@ -12,7 +12,8 @@
         },
         {
             "matches": ["http://www.rpgcodex.net/forums/index.php?threads/*"],
-            "js": ["lib/jquery-2.1.0.min.js", "js/bottom-actions.js"]
+//            "js": ["lib/jquery-2.1.0.min.js", "js/bottom-actions.js"],
+            "css": ["css/threads.css"]
         }
     ]
 }
